@@ -1,6 +1,6 @@
 inherit_gem:
-  rubocop-config-umbrellio: config/rubocop.yml
+  rubocop-config-umbrellio: lib/rubocop.yml
 
 AllCops:
+  DisplayCopNames: true
   TargetRubyVersion: 3.3
-  NewCops: enable

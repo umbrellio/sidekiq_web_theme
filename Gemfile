@@ -4,6 +4,14 @@ source "https://rubygems.org"
 
 gemspec
 
-group :development, :test do
+gem "rake"
+
+group :development do
   gem "rubocop-config-umbrellio"
+end
+
+group :test do
+  gem "rspec"
+  gem "simplecov"
+  gem "simplecov-lcov"
 end

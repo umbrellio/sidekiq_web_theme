@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.email = ["oss@umbrellio.biz"]
 
   spec.summary = "Usability CSS fixes for the Sidekiq Web UI"
-  spec.description = "Injects custom CSS into the Sidekiq::Web UI to improve usability of the default Sidekiq 8 layout."
+  spec.description = "Usability CSS fixes for the Sidekiq Web UI, injected via Rack middleware."
   spec.homepage = "https://github.com/umbrellio/sidekiq_web_theme"
   spec.license = "MIT"
   spec.required_ruby_version = ">= 3.3"
@@ -21,6 +21,4 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_dependency "sidekiq", ">= 8"
-
-  spec.add_development_dependency "rspec", "~> 3.0"
 end

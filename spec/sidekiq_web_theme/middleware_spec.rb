@@ -3,7 +3,7 @@
 RSpec.describe SidekiqWebTheme::Middleware do
   subject(:middleware) { described_class.new(downstream) }
 
-  let(:downstream) { ->(_env) { [status, headers, body] } }
+  let(:downstream) { -> (_env) { [status, headers, body] } }
   let(:status) { 200 }
   let(:env) { { csp_nonce: "abc123" } }
 
