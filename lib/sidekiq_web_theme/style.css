@@ -1,0 +1,64 @@
+body {
+    margin: 0 auto;
+    font-size: 13px;
+    max-width: 1200px;
+}
+
+div.args {
+    font-size: 10px;
+    max-height: 100px;
+    overflow-y: scroll;
+}
+
+h1 {
+    font-size: 20px;
+}
+
+h2 {
+    font-size: 18px
+}
+
+article h3 {
+    font-size: 15px;
+}
+
+td.num span {
+    font-size: 13px;
+}
+
+article .count {
+    font-size: 14px;
+}
+
+div.btn-group, td.num {
+    white-space: nowrap;
+}
+
+div.btn-group .btn {
+    line-height: 1;
+}
+
+td .btn {
+    line-height: 1;
+}
+
+body > header {
+    height: 36px;
+}
+
+body > header .container {
+    padding: 0 10px;
+}
+
+body > footer {
+    height: 34px
+}
+
+body > footer .container {
+    padding: 5px 10px;
+}
+
+::selection {
+  background-color: #3399ff;
+  color: white;
+}
